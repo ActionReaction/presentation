@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Action / Reaction</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+        <link rel="stylesheet" href="css/custom.css">
+        <!--<link rel="stylesheet" href="css/print/pdf.css" type="text/css">-->
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+	    <div class="presentation-details">
+	        Action ☇ Reaction
+	    </div>
+
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Action ☇ Reaction</h1>
+                    <h3>A Hackiothon Project</h3>
+					<p>
+						<small>By Glen Decauwsemaecker, Sebastiaan Provot & Ruben Vereecken</small>
+					</p>
+                    <span class="fragment">
+                        <img src="http://puu.sh/9QF1x/a94df67583.png">
+                    </span>
+				</section>
+                <section>
+                    <h2>We'll walk you through...</h2>
+                    <ol>
+                        <li>Meet the team</li>
+                        <li>What's the plan</li>
+                        <li>How's the plan</li>
+                        <li>Let's take a look</li>
+                        <li>What's the future like</li>
+                        <li class="fragment">Cheers from the crowd</li>
+                    </ol>
+                </section>
+                <section>
+                    <section>
+                        <h2>Meet the team</h2>
+                        <h3>Team CodeCombat</h3>
+                        <img src="http://cdn.sett.com/images/user/blogmastheadd75541c39a2cd8d41e216ad0ab130649.png" />
+                        <div class="fragment">Open source hackers & friends</div>
+                    </section>
+                    <section>
+                        <h2>Glen De Cauwsemaecker</h2>
+                        <img src="http://www.glendc.com/wp-content/uploads/2013/10/me.jpg" />
+                        <br/>
+                        <div class="fragment">Pirate & Open source Hacker</div>
+                    </section>
+                    <section>
+                        <h2>Sebastiaan Provost</h2>
+                        <img src="http://puu.sh/9S50f/1aace6dea1.jpg" />
+                        <br/>
+                        <div class="fragment">Knowledge Junkie</div>
+                    </section>
+                    <section>
+                        <h2>Ruben Vereecken</h2>
+                        <img src="http://puu.sh/9S5fR/aff8464880.jpg" />
+                        <br/>
+                        <div class="fragment">Future VUB AI Student</div>
+                    </section>
+                </section>
+                <section>
+                    <h2>What's the plan?</h2>
+                    <ul>
+                        <li class="fragment">Action => Reaction</li>
+                        <li class="fragment">Try to couple Arduino with pretty much anything</li>
+                        <li class="fragment">Generic Rule Engine</li>
+                        <li class="fragment">e.g.</li>
+                        <ul class="fragment">
+                            <li>If <em>Tweet</em> then <strong>play Star Wars Tune</strong></li>
+                            <li class="fragment">If <em>Movement detected</em> then <strong>send warning email</strong></li>
+                        </ul>
+                        <li class="fragment">Offered as a webservice or can be installed locally</li>
+                    </ul>
+                </section>
+                <section>
+                    <section>
+                        <h2>How?</h2>
+                        <ul>
+                            <li class="fragment">Lots of motivation</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Arduino</h3>
+                        <img src="http://arduino.cc/en/uploads/Main/ArduinoUno_r2_front450px.jpg" />
+                        <br/>
+                        <ul>
+                            <li class="fragment">Can connect to any inputs</li>
+                            <li class="fragment">Can connect to any outputs</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Web service & GUI</h3>
+                        <img src="http://blog.panjmp.com/wp-content/uploads/2014/04/mean-800x540.png" />
+                    </section>
+                    <section>
+                        <h3>C++ & Premake</h3>
+                        <ul>
+                            <li class="fragment">Performant</li>
+                            <li class="fragment">Yet slow for development...</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Lots of coffee(script)</h3>
+                        <img src="http://blog.beautyfix.com/wp-content/uploads/2012/09/Coffee_iStock_000006160362Medium.jpg"/>
+                    </section>
+                </section>
+                <section>
+                    <h1>DEMO</h1>
+                    <h2>⊙﹏⊙</h2>
+                    <br/>
+                    <h2 class="fragment">(ಥ_ಥ)</h2>
+                </section>
+                <section>
+                    <h1>Hard times</h1>
+                    <ul>
+                        <li>Streaming data to the Arduino</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>The Future</h2>
+                    <ul>
+                        <li class="fragment">Fully working demo...</li>
+                        <li>Make writing modules even easier for outsiders</li>
+                        <li class="fragment">Write a lot more modules
+                            <ul>
+                                <li>Show Tweets on an Arduino LCD</li>
+                                <li>Create your own alarms on sensor input</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Thank you for your attention</h3>
+
+                    <img src="http://fc02.deviantart.net/fs70/f/2011/245/1/2/pole_dancing_bunny_by_bcr8tive-d48otfb.gif" />
+                </section>
+
+
+                <!-- inter-slide links
+				<section>
+					<h2>Intergalactic Interconnections</h2>
+					<p>
+						You can link between slides internally,
+						<a href="#/2/3">like this</a>.
+					</p>
+				</section>
+			    -->
+
+                <!-- sexy fragments
+				<section>
+					<section id="fragments">
+						<h2>Fragmented Views</h2>
+						<p>Hit the next arrow...</p>
+						<p class="fragment">... to step through ...</p>
+						<ol>
+							<li class="fragment"><code>any type</code></li>
+							<li class="fragment"><em>of view</em></li>
+							<li class="fragment"><strong>fragments</strong></li>
+						</ol>
+					</section>
+					<section>
+						<h2>Fragment Styles</h2>
+						<p>There's a few styles of fragments, like:</p>
+						<p class="fragment grow">grow</p>
+						<p class="fragment shrink">shrink</p>
+						<p class="fragment roll-in">roll-in</p>
+						<p class="fragment fade-out">fade-out</p>
+						<p class="fragment highlight-red">highlight-red</p>
+						<p class="fragment highlight-green">highlight-green</p>
+						<p class="fragment highlight-blue">highlight-blue</p>
+						<p class="fragment current-visible">current-visible</p>
+						<p class="fragment highlight-current-blue">highlight-current-blue</p>
+					</section>
+				</section>
+				-->
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+				mouseWheel:true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
